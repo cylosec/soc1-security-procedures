@@ -33,6 +33,7 @@ concerns.
 | Sysmon Logs (via Wazuh/SIEM) | Detects process creation and network connections. |
 | Firewall Logs | Show allowed/blocked traffic; part of audit trails. |
 | NetFlow/PCAP | Used for forensic investigation of data flows. |
+| Wireshark/ | Captures and analyzes individual network packets, allowing for detailed inspection of network traffic and troubleshooting specific issues. 
 | SIEM Dashboards | Aggregate network and endpoint logs for real-time monitoring. |
 
 ---
