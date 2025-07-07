@@ -15,22 +15,14 @@ concerns.
 
 | Concept | Why It Matters for SOC 1 |
 |---------|---------------------------|
-| IP Addressing (IPv4/IPv6) | Tracks source/destination of events; 
-important for tracing alerts. |
-| MAC Address | Identifies the physical device—useful when tracing 
-device-level issues. |
-| Ports & Protocols (e.g., HTTP - 80, HTTPS - 443, SMB - 445) | Helps 
-understand which services are being used and how data is transferred. |
-| Subnets & VLANs | Key for isolating sensitive data (e.g., financial 
-systems). VLAN misconfigurations can create audit issues. |
-| Firewall Rules | Analysts may check if traffic was blocked/allowed 
-during an incident. |
-| NAT (Network Address Translation) | Important for understanding internal 
-vs. external IP relationships. |
-| DNS & DHCP | Helps track hostname resolution and device identification 
-in logs. |
-| Network Topology | Visualizing how devices connect (e.g., flat vs. 
-segmented networks). Segmentation helps meet compliance. |
+| IP Addressing (IPv4/IPv6) | Tracks source/destination of events; important for tracing alerts. |
+| MAC Address | Identifies the physical device—useful when tracing device-level issues. |
+| Ports & Protocols (e.g., HTTP - 80, HTTPS - 443, SMB - 445) | Helps understand which services are being used and how data is transferred. |
+| Subnets & VLANs | Key for isolating sensitive data (e.g., financial systems). VLAN misconfigurations can create audit issues. |
+| Firewall Rules | Analysts may check if traffic was blocked/allowed during an incident. |
+| NAT (Network Address Translation) | Important for understanding internal vs. external IP relationships. |
+| DNS & DHCP | Helps track hostname resolution and device identification in logs. |
+| Network Topology | Visualizing how devices connect (e.g., flat vs. segmented networks). Segmentation helps meet compliance. |
 
 ---
 
@@ -38,12 +30,10 @@ segmented networks). Segmentation helps meet compliance. |
 
 | Tool/Log Type | Purpose for SOC 1 |
 |---------------|-------------------|
-| Sysmon Logs (via Wazuh/SIEM) | Detects process creation and network 
-connections. |
+| Sysmon Logs (via Wazuh/SIEM) | Detects process creation and network connections. |
 | Firewall Logs | Show allowed/blocked traffic; part of audit trails. |
 | NetFlow/PCAP | Used for forensic investigation of data flows. |
-| SIEM Dashboards | Aggregate network and endpoint logs for real-time 
-monitoring. |
+| SIEM Dashboards | Aggregate network and endpoint logs for real-time monitoring. |
 
 ---
 
@@ -66,9 +56,7 @@ SC-7).
 
 | Control ID | Control Name | Relevance |
 |------------|--------------|-----------|
-| AC-4 | Information Flow Enforcement | Ensure sensitive data isn’t 
-exfiltrated. |
+| AC-4 | Information Flow Enforcement | Ensure sensitive data isn’t exfiltrated. |
 | SC-7 | Boundary Protection | Network segmentation and firewall policy. |
-| AU-12 | Audit Log Generation | Ensures network events are logged and 
-retained. |
+| AU-12 | Audit Log Generation | Ensures network events are logged and retained. |
 
