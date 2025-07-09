@@ -43,7 +43,7 @@ This alert was triggered due to strict PowerShell monitoring rules in the SIEM. 
 
 ## JIRA Ticketing Sample
 
-### 📌 TICKET TYPE: False Positive Review  
+###  TICKET TYPE: False Positive Review  
 **Priority:** Low  
 **Status:** Closed  
 **Assignee:** SOC Level 1 Analyst  
@@ -51,7 +51,7 @@ This alert was triggered due to strict PowerShell monitoring rules in the SIEM. 
 
 ---
 
-## 🧾 Alert Summary
+##  Alert Summary
 
 **Alert Title:** Suspicious PowerShell Execution  
 **SIEM Source:** Wazuh  
