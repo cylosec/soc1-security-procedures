@@ -4,7 +4,7 @@
 To simulate how a Security Operations Center (SOC) can forward and visualize Wazuh alerts inside Splunk Enterprise using JSON data, real-time log shipping, and automation workflows.
 
 ## Background
-Splunk is used at many enterprises. Although I don’t currently have access to a Splunk Enterprise license, I’ve configured my Wazuh lab in a way that mimics how alerts would be forwarded and parsed by Splunk.
+Splunk is used at many enterprises. Although I am currently using Splunk Enterprise Free version, I am still able to utilize capabilities for integration. I’ve configured my Wazuh lab in a way that mimics how alerts would be forwarded and parsed by Splunk.
 
 ---
 
