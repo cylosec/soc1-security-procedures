@@ -53,4 +53,3 @@ Each control file includes:
 
 ---
 
-Let me know if you'd like to add a section for MITRE ATT&CK TTP mappings or links to detection rules per control.
